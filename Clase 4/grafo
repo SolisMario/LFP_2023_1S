@@ -1,0 +1,46 @@
+digraph ejemplo {
+	rankdir=LR
+	"John Smith" [label=<
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+            <TR>
+                <TD COLSPAN="2"><FONT COLOR="red">John Smith</FONT></TD>
+            </TR>
+            <TR>
+                <TD><FONT COLOR="red">Accounting</FONT></TD>
+                <TD><FONT COLOR="red">November</FONT></TD>
+            </TR>
+        </TABLE>> shape=none]
+	"John Smith" -> "Erica Meyers"
+	"John Smith" -> Mario
+	"Erica Meyers" [label=<
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+            <TR>
+                <TD COLSPAN="2"><FONT COLOR="red">Erica Meyers</FONT></TD>
+            </TR>
+            <TR>
+                <TD><FONT COLOR="red">IT</FONT></TD>
+                <TD><FONT COLOR="red">March</FONT></TD>
+            </TR>
+        </TABLE>> shape=none]
+	Mario [label=<
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+            <TR>
+                <TD COLSPAN="2"><FONT COLOR="red">Mario</FONT></TD>
+            </TR>
+            <TR>
+                <TD><FONT COLOR="red"> Marketing</FONT></TD>
+                <TD><FONT COLOR="red">september</FONT></TD>
+            </TR>
+        </TABLE>> shape=none]
+	Mario -> Josue
+	Josue [label=<
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+            <TR>
+                <TD COLSPAN="2"><FONT COLOR="red">Josue</FONT></TD>
+            </TR>
+            <TR>
+                <TD><FONT COLOR="red">IT</FONT></TD>
+                <TD><FONT COLOR="red">octubre</FONT></TD>
+            </TR>
+        </TABLE>> shape=none]
+}
