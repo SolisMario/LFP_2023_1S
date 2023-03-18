@@ -4,7 +4,7 @@ class Operacion:
         self.operandos = []
 
     def operar(self):
-        res = ''
+        res = '' # 1 + (1 + 1) = 3
         resnum = 0
         if self.tipo.lower() == 'suma':
             for operando in self.operandos:
